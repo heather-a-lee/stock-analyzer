@@ -6,7 +6,8 @@ This is a web server which exposes a single API endpoint:
 `/v1/stocks/:ticker`. Given a ticker symbol, the endpoint returns a JSON array containing two elements representing a buy and sell date that will yield the maximum profit over 365 days. This application makes outbound requests to [the MarketStack API](https://marketstack.com/documentation).
 
 ### Pre-requisites
-Run `npm install`.
+- Add a .env file. The contents should be `MARKET_STACK_API_KEY=<API_KEY FROM PASTEBIN THAT I WILL SEND>`.
+- Run `npm install`.
 
 ### How to run the service
 Run `npm start`.
