@@ -1,0 +1,9 @@
+[
+  {
+      "scope": "http://api.marketstack.com:80",
+      "method": "GET",
+      "path": "/v1/eod?access_key=mock-key&symbols=APPL&sort=ASC&offset=0",
+      "body": "",
+      "status": 422
+  }
+]

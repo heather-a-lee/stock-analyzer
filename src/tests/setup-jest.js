@@ -1,0 +1,1 @@
+process.env.MARKET_STACK_API_KEY = 'mock-key';
